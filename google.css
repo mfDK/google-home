@@ -23,17 +23,17 @@ a:hover {
 	text-decoration: underline;
 }
 
-ul {
+#navbar {
 	list-style-type: none;
 	margin: 30px 50px;
 	padding: 0;
 	float: right;
 }
 
-li {
+#navbar li {
 	display: inline;
-	margin-right: 15px;
-	font-size: 13px;
+	margin-right: 20px;
+	font-size: 12px;
 	float: left;
 }
 
@@ -68,10 +68,24 @@ footer {
 
 #footer-left {
 	float: left;
+	margin-left: 20px;
 }
 
 #footer-right {
 	float: right;
+	margin-right: 20px;
+}
+
+#footer-links li {
+	list-style-type: none;
+	display: inline;
+	margin: 20px 10px;
+}
+
+#footer-links li a {
+	margin-top: 15px;
+	font-size: 14px;
+	margin-right: 10px;
 }
 
 
